@@ -36,8 +36,9 @@ preload = async(images) => {
 
 
   const results = await Promise.all(load)
-</p>
+
   console.log(results)
 }
 
 preload(imgs)
+</p>
